@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Day-12 | Bootstrap-05</title>
+<!--    bootstrap link-->
+    <link rel="stylesheet" href="css/bootstrap.css">
+<!--    favicon link-->
+    <link rel="shortcut icon" href="image/favicon%20(1).ico" type="image/x-icon">
+<!--    custom css-->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<!--nav menu-->
+<nav class="navbar navbar-expand-md bg-dark navbar-dark">
+    <div class="container">
+        <a href="" class="navbar-brand text-uppercase">Logo</a>
+        <ul class="navbar-nav">
+            <li><a href="" class="nav-link">Home</a></li>
+            <li><a href="" class="nav-link">About</a></li>
+            <li><a href="" class="nav-link">Gallery</a></li>
+            <li><a href="" class="nav-link">Service</a></li>
+            <li><a href="" class="nav-link">Contact</a></li>
+        </ul>
+    </div>
+</nav>
+
+
+<!--section-->
+<section class="py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card card-body">
+                    <form action="">
+                        <div class="mt-2">
+                            <label for="">Name</label>
+                            <input type="text" class="form-control"/>
+                        </div>
+                        <div class="mt-2">
+                            <label for="">Email</label>
+                            <input type="email" class="form-control"/>
+                        </div>
+                        <div class="mt-2">
+                            <label for="">Phone Number</label>
+                            <input type="number" class="form-control">
+                        </div>
+                        <div class="mt-2">
+                            <label for="">Date of Birth</label>
+                            <input type="date" class="form-control"/>
+                        </div>
+                        <div class="mt-2">
+                            <label for="">Religion</label>
+                            <select name="" id="" >
+                                <option value="Islam">Islam</option>
+                                <option value="Hinduism">Hinduism</option>
+                            </select>
+                        </div>
+                        <div class="mt-2">
+                            <label for="">Gender</label>
+                            <label for=""><input type="radio" name="gender">Male</label>
+                            <label for=""><input type="radio" name="gender">female</label>
+                            <label for=""><input type="radio" name="gender">Other</label>
+                        </div>
+                        
+                        <div class="mt-2">
+                            <label for="">Address</label>
+                            <textarea name="" id="" cols="30" rows="5" class="form-control"></textarea>
+                        </div>
+                        <div class="mt-2">
+                            <input type="submit" class="btn btn-success" value="save">
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card card-body">
+                    <form action="">
+                        <div class="row mt-2">
+                            <label for="name" class="col-md-4">Name</label>
+                            <div class="col-md-8">
+                                <input id="name" type="text" class="form-control">
+                            </div>
+                        </div>
+                        <div class="row mt-2">
+                            <label for="email" class="col-md-4">Email</label>
+                            <div class="col-md-8">
+                                <input id="email" type="email" class="form-control">
+                            </div>
+                        </div>
+                        <div class="row mt-2">
+                            <label for="number" class="col-md-4">Phone Number</label>
+                            <div class="col-md-8">
+                                <input id="number" type="tel" class="form-control">
+                            </div>
+                        </div>
+                        <div class="row mt-2">
+                            <label for="date" class="col-md-4">Date of Birth</label>
+                            <div class="col-md-8">
+                                <input id="date" type="date" class="form-control">
+                            </div>
+                        </div>
+                        <div class="row mt-2">
+                            <label for="religion" class="col-md-4">Religion</label>
+                            <div class="col-md-8">
+                                <select id="religion" name="" id="" class="form-control">
+                                    <option value="islam">Islam</option>
+                                    <option value="hinduism">Hinduism</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="row mt-2">
+                            <label for="" class="col-md-4">Gender</label>
+                            <div class="col-md-8">
+                                <label for=""><input type="radio" name="gender">Male</label>
+                                <label for=""><input type="radio" name="gender">female</label>
+                                <label for=""><input type="radio" name="gender">other</label>
+                            </div>
+                        </div>
+                        <div class="row mt-2">
+                            <label for="address" class="col-md-4">Address</label>
+                            <div class="col-md-8">
+                                <textarea name="" id="address" cols="30" rows="5" class="form-control"></textarea>
+                            </div>
+                        </div>
+                        <div class="row mt-2">
+                            <label for="" class="col-md-4"><input type="submit" value="save" class="btn btn-outline-success px-4"></label>
+
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!--section-->
+
+
+<section class="py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card card-body">
+                   <div class="accordion" id="accordionExample">
+                       <div class="accordion-item">
+                           <h2 class="accordion-header">
+                               <button type="button" class="accordion-button" data-bs-toggle="collapse" data-bs-target="#divOne">Whats is your name?</button>
+                           </h2>
+                           <div class="collapse accordion-collapse show" id="divOne" data-bs-parent="#accordionExample">
+                               <div class="accordion-body">
+                                   <p>my name is sheikh salah uddin</p>
+                               </div>
+                           </div>
+                       </div>
+
+                       <div class="accordion-item">
+                           <h2 class="accordion-header">
+                               <button type="button" class="accordion-button" data-bs-toggle="collapse" data-bs-target="#divTwo">Whats is your friends name?</button>
+                           </h2>
+                           <div class="collapse accordion-collapse" id="divTwo" data-bs-parent="#accordionExample">
+                               <div class="accordion-body">
+                                   <p>my name is Sazal</p>
+                               </div>
+                           </div>
+                       </div>
+
+                       <div class="accordion-item">
+                           <h2 class="accordion-header">
+                               <button type="button" class="accordion-button" data-bs-toggle="collapse" data-bs-target="#divThree">Whats is your daughter name?</button>
+                           </h2>
+                           <div class="collapse accordion-collapse" id="divThree" data-bs-parent="#accordionExample">
+                               <div class="accordion-body">
+                                   <p>my daughter name is Nafisa</p>
+                               </div>
+                           </div>
+                       </div>
+                   </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--bootstrap js-->
+<script src="js/bootstrap.bundle.js"></script>
+</body>
+</html>
